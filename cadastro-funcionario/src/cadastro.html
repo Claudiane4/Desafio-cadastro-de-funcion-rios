@@ -3,31 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+    <title>Cadastro</title>
+    </head>
+    <body>
+        <h1 id="titulo">Cadastro</h1>
 
-    </style>
+        <p id="subtitulo">Complete as informações</p>
+        <br>
+        <form>
+            <fieldset class="grupo">
+            <div class="campo">
+                <label for="NOME"><strong>NOME COMPLETO</strong></label>
+                <input type="text" name="NOME" id="NOME" required>
+            </div>
 
-</head>
-    <form>
-        <input type=""text" name="NOME"
-        placeholder="NOME">
-        
-        <input type=""number" name="CPF"
-        placeholder="CPF">
+            <div class="campo">
+                <label for="CPF"><strong>CPF</strong></label>
+                <input type="text" name="CPF" id="CPF" required>
 
-        <input type=""number" name="RG"
-        placeholder="RG">
+            </div>
 
-        <input type=""number" name="VINCULO TRABALHISTA"
-        placeholder="VINCULO TRABALHISTA">
+            <div class="campo">
+                <label for="RG"><strong>RG</strong></label>
+                <input type="text" name="RG" id="RG">
+            </div>
 
-        <input type="image" name="ViNCULO TRABALHISTA"
-        placeholder="ViNCULO TRABALHISTA">
+            <div class="campo">
+                <label for="VINCULO"><strong>VINCULO TRABALHISTA</strong></label>
+                <select>id="terceirizada">
+                    <option selected disabled value="">Selecione</option>
+                    <option>SALUX</option>
+                    <option>TAWHOS</option>
+                    <option>AMAZONCOP</option>
+                    <option>SERVIDOR</option>
+                    <option>ESTÁGIARIOS</option>
+                    <option>VISITANTES</option>
+                </select>
+            </div>
 
-        <button type="submit">Cadastrar</button>
-    </form>
-<body>
-    
-</body>
+            <div class="campo">
+                <label for="FOTO"><strong>FOTO</strong></label>
+                <input type="image">
+            </div>
+        </fieldset>
+            <button class="botão" type="submit">Cadastro concluído</button>
+        </form>
+    </body>
 </html>
