@@ -88,7 +88,7 @@ fieldset.grupo .campo{
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
     position: absolute;
-    top: 85%;
+    top: 66%;
     left: 50%;
     margin-right: -50%;
     transform:translate(-50%, -50%);
