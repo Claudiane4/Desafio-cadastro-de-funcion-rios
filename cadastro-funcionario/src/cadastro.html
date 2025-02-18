@@ -21,14 +21,14 @@
 
                 <div class="campo">
                     <label for="CPF"><strong>CPF</strong></label>
-                    <input type="text" autocomplete="off" id="CPF" maxlength="14" required>
+                    <input id="cpf" type="text" autocomplete="off"maxlength="14" oninput="this.value(/[^0-9.-]/g,)" required>
                     <script src="./main.js"></script>
 
                 </div>
 
                 <div class="campo">
                     <label for="RG"><strong>RG</strong></label>
-                    <input type="text" autocomplete="off" id="RG" maxlength="9">
+                    <input id="rg" type="text" autocomplete="off" maxlength="9" oninput="this.value(/[^0-9.-]/g,)" required>
                     <script src=".main.js"></script>
                 </div>
 
