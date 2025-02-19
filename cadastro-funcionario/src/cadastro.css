@@ -4,23 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    
+    font-family: "Poppins", sans-serif;   
 }
+
 #titulo{
     font-size: 36px;
     color: black;
     text-align: center;
-   
 }
+
 #subtitulo {
     font-family: sans-serif;
     color: black;
     text-align: center;
 }
+
 fieldset{
     width: 420px;
-    height: 620px;
+    height: 680px;
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255, 0.2);
     border-radius: 10px;
@@ -28,6 +29,7 @@ fieldset{
     padding: 30px 40px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
+
 body{
     display: flex;
     align-items: center;
@@ -73,43 +75,28 @@ fieldset.grupo .campo{
 .campo input[type="text"]{
     align-items: center;
 }
-    
 
 /*focus tag para deixar campos em evidencia*/
 .campo input:focus, .campo select:focus{
     background: #E0E0F8;
 }
+
 .botão{
-<<<<<<< HEAD
     width: 100%;
     height: 50px;
-    border:none;
-    border-radius: 40px;
-    /*cursor pointer para aparecer a mão no cursor ao passar no botão*/
+    border: none;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.1)
-    
-=======
-    font-size: 1.2em;
-    border: 0;
-    margin-bottom: 1em;
-    color: black;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
-    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
-    position: absolute;
-    top: 66%;
-    left: 50%;
-    margin-right: -50%;
-    transform:translate(-50%, -50%);
->>>>>>> c11b2deda6210f6bbaf452c4f32cce3d59bbcde7
+    font-weight:  600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /*tag hover deixar em evidencia o botão ao passar o mouse*/
 .botão:hover{
     background: #ccbbff;
     box-shadow: inset 2px 2px 2px rgb(0, 0, 0, 0.2);
     text-shadow: none;
-    transition: 0.5s;
+}
+
+#image{
+    max-width: 80px; min-width: 50px;
 }
